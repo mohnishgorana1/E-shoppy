@@ -7,6 +7,8 @@ import Orders from "./Orders";
 import Checkout from "./Checkout";
 import Products from "./Products";
 import Error from "./Error";
+import Landing from "./Landing";
+import SingleProduct from './SingleProduct'
 
 export {
     Login,
@@ -17,5 +19,7 @@ export {
     Orders,
     Checkout,
     Products,
-    Error
+    Error,
+    Landing,
+    SingleProduct
 }
