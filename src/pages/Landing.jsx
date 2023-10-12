@@ -1,7 +1,10 @@
+import Hero from "../components/Hero"
 
 function Landing() {
   return (
-    <div>Landing</div>
+    <>
+     <Hero /> 
+    </>
   )
 }
 

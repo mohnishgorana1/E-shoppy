@@ -1,5 +1,5 @@
-import { Outlet } from "react-router-dom"
-import { Header, Navbar } from "../components"
+import { Outlet } from "react-router-dom";
+import { Header, Navbar } from "../components";
 
 function Home() {
   return (
@@ -7,9 +7,11 @@ function Home() {
       <Header />
       <Navbar />
 
-      <Outlet />
+      <section className="align-element py-20">
+        <Outlet />
+      </section>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;

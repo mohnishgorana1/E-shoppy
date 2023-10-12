@@ -5,6 +5,7 @@ import ProductsList from './ProductsList'
 import FormInput from './FormInput'
 import SubmitButton from './SubmitButton'
 import NavLinks from './NavLinks'
+import Hero from './Hero'
 
 export {
     Navbar,
@@ -13,5 +14,6 @@ export {
     ProductsList,
     FormInput,
     SubmitButton,
-    NavLinks
+    NavLinks,
+    Hero
 }
