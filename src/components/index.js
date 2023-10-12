@@ -4,7 +4,7 @@ import ProductCard from './ProductCard'
 import ProductsList from './ProductsList'
 import FormInput from './FormInput'
 import SubmitButton from './SubmitButton'
-
+import NavLinks from './NavLinks'
 
 export {
     Navbar,
@@ -12,5 +12,6 @@ export {
     ProductCard,
     ProductsList,
     FormInput,
-    SubmitButton
+    SubmitButton,
+    NavLinks
 }
