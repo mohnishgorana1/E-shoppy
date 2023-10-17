@@ -7,7 +7,7 @@ function Home() {
       <Header />
       <Navbar />
 
-      <section className="align-element py-20">
+      <section className="align-element flex flex-col mt-10  gap-5">
         <Outlet />
       </section>
     </>

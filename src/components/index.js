@@ -6,7 +6,8 @@ import FormInput from './FormInput'
 import SubmitButton from './SubmitButton'
 import NavLinks from './NavLinks'
 import Hero from './Hero'
-
+import ProductsFilter from './ProductsFilter'
+import FormOptions from './FormOptions'
 export {
     Navbar,
     Header,
@@ -15,5 +16,7 @@ export {
     FormInput,
     SubmitButton,
     NavLinks,
-    Hero
+    Hero,
+    ProductsFilter,
+    FormOptions
 }

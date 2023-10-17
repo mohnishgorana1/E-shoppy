@@ -25,11 +25,6 @@ function App() {
           errorElement:<Error />
         },
         {
-          path:'/about',
-          element:<About/>,
-          errorElement:<Error />
-        },
-        {
           path:'/products',
           element:<Products />,
           errorElement:<Error />

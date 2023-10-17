@@ -1,17 +1,17 @@
-import React from "react";
+
 
 function FormInput({ type, label, name, defaultValue, size }) {
   return (
-    <div className="form-control gap-1">
+    <div className="form-control gap-1 flex flex-col items-start justify-between gap-3">
       <label>
-        <span className="capitalize label-text">{label}</span>
+        <span className="capitalize label-text text-lg">{label}</span>
       </label>
       <input
         type={type}
         name={name}
         defaultValue={defaultValue}
         placeholder={`Enter ${label}`}
-        className={`input input-bordered input-${size}`}
+        className={`input input-bordered text-sm w-full rounded-lg px-1 text-center input-${size}`}
       />
     </div>
   );
