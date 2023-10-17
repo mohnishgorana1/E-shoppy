@@ -1,6 +1,5 @@
 import Login from "./Login";
 import Register from "./Register";
-import About from "./About";
 import Cart from "./Cart";
 import Home from "./Home";
 import Orders from "./Orders";
@@ -13,7 +12,6 @@ import SingleProduct from './SingleProduct'
 export {
     Login,
     Register,
-    About,
     Cart,
     Home,
     Orders,

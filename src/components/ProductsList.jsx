@@ -2,7 +2,9 @@
 
 function ProductsList() {
   return (
-    <div>ProductsList</div>
+    <div>
+      
+    </div>
   )
 }
 
