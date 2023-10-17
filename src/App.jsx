@@ -5,13 +5,15 @@ import {
   Error,
   Products,
   Cart,
-  About,
   Register,
   Login,
   Checkout,
   Orders,
   SingleProduct,
 } from "./pages";
+
+
+import {loader as productsLoader} from './pages/Products'
 
 function App() {
   const router = createBrowserRouter([
@@ -27,6 +29,7 @@ function App() {
         {
           path:'/products',
           element:<Products />,
+          loader: productsLoader,
           errorElement:<Error />
         },
         {

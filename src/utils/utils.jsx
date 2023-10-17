@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const productionUrl = 'https://api.escuelajs.co/api/v1/products'
+const productionUrl = 'https://api.escuelajs.co/api/v1'
 
 export const customFetch = axios.create({
     baseURL: productionUrl,
