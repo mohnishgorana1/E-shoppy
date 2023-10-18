@@ -15,7 +15,7 @@ function ProductsList() {
           return (
             <Link
               key={id}
-              to={`/products/:${id}`}
+              to={`/products/${id}`}
               className="w-[80%] m-auto  sm:w-full h-auto rounded-lg shadow-2xl hover:scale-105 duration-200 px-4 py-4 grid gap-2  "
             >
               <img src={image} alt={title} className=" w-full rounded-lg" />
