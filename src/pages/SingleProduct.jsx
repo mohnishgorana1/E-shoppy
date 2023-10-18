@@ -5,10 +5,11 @@ import { useState } from "react";
 function SingleProduct() {
   // GETTING PRODUCT DETAILS
   const { id } = useParams();
-  console.log(id);
+  // console.log(id);
+
   const { products } = useLoaderData();
   const myProduct = products[id];
-  console.log("MP", myProduct);
+  console.log("MP-ID", myProduct);
 
   // PRODUCT DETAILS
   const { price, title, image, description, category } = myProduct;
@@ -20,10 +21,10 @@ function SingleProduct() {
   };
 
   return (
-    <div className="w-full h-screen  bg-base-300 rounded-xl px-10 py-5 flex flex-col sm:flex-row items-center   gap-x-10 ">
+    <div className="object-cover w-full h-auto bg-base-300 rounded-xl px-10 py-5 mb-10 flex flex-col sm:flex-row items-center   gap-x-14 ">
 
       {/* IMAGE */}
-      <div className="w-[80%] sm:w-[40%] h-96 shadow-2xl sm:px-4 sm:py-8 sm:gap-x-5 rounded-xl bg-black  ">
+      <div className="w-[100%] sm:w-[100%] h-96 shadow-2xl sm:px-4 sm:py-8 sm:gap-x-5 rounded-xl border border-primary  ">
         <img
           src={image}
           alt={title}
@@ -37,6 +38,10 @@ function SingleProduct() {
         <h2 className="text-md sm:text-xl font-medium capitalize">
           {" "}
           {`Category: ${category}`}
+        </h2>
+        <h2 className="text-md sm:text-xl font-medium capitalize">
+          Description: 
+          <div className=" mt-3 sm:ml-5 text-sm font-normal text-neutral-content tracking-wider font-mono "> {description} </div>
         </h2>
         <h3>
           Price: {" "}

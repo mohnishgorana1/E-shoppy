@@ -4,8 +4,6 @@ import { formatPrice } from "../utils/utils";
 
 function ProductsList() {
   const { products } = useLoaderData();
-  console.log("PRODUCT", products[0]);
-
   console.log(products);
 
   return (
