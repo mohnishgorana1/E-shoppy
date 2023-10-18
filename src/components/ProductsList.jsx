@@ -1,5 +1,5 @@
 import { Link, useLoaderData } from "react-router-dom";
-import ProductCard from "./ProductCard";
+
 import { formatPrice } from "../utils/utils";
 
 function ProductsList() {
