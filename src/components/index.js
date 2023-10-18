@@ -8,15 +8,17 @@ import NavLinks from './NavLinks'
 import Hero from './Hero'
 import ProductsFilter from './ProductsFilter'
 import FormOptions from './FormOptions'
-export {
-    Navbar,
-    Header,
+import Pagination from './Pagination'
 
-    ProductsList,
-    FormInput,
+export {
+    Header,
+    Navbar,
     SubmitButton,
     NavLinks,
-    Hero,
     ProductsFilter,
-    FormOptions
+    FormInput,
+    FormOptions,
+    Hero,
+    ProductsList,
+    Pagination,
 }

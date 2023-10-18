@@ -2,7 +2,7 @@
 
 function FormInput({ type, label, name, defaultValue, size }) {
   return (
-    <div className="form-control gap-1 flex flex-col items-start justify-between gap-3">
+    <div className="form-control  flex flex-col items-start justify-between gap-3">
       <label>
         <span className="capitalize label-text text-lg">{label}</span>
       </label>
