@@ -9,7 +9,7 @@ function FormInput({ type, label, name, defaultValue, size }) {
       <input
         type={type}
         name={name}
-        defaultValue={defaultValue}
+        defaultValue={""}
         placeholder={`Enter ${label}`}
         className={`input input-bordered text-sm w-full rounded-lg px-1 text-center input-${size}`}
       />

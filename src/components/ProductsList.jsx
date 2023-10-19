@@ -9,7 +9,7 @@ function ProductsList() {
   return (
     // Products Listing with products card
     <>
-      <div className="container border-2 grid sm:grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-14  px-10 py-5">
+      <div className="container mb-5 border-2 rounded-3xl grid sm:grid-cols-2 md:grid-cols-3 gap-x-10 gap-y-14  px-10 py-5">
         {products.map((item) => {
           const { id, price, title, image, description, category } = item;
           
